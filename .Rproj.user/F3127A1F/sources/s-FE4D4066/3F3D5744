@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1534004245848.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3F3D5744",
+    "lastKnownWriteTime" : 1534558056,
+    "last_content_update" : 1534558056753,
+    "path" : "C:/Users/falaf/Academia/Projects/FORRT/index.Rmd",
+    "project_path" : "index.Rmd",
+    "properties" : {
+        "cursorPosition" : "30,594",
+        "ignored_words" : "pre,FORRTproject,sam,uk,azevedo,edu,galangc,Flavio,br,Nosek,foundational\n",
+        "scrollLine" : "9"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

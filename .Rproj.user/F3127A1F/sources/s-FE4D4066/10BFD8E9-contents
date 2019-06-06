@@ -1,0 +1,38 @@
+---
+title: "FORRT"
+subtitle: "Framework for Open and Reproducible Research Training"
+output: 
+  html_document:
+    css: style.css
+---
+
+***
+
+<br>
+
+<center>
+
+## **A Framework for Evaluating and Incentivising the Teaching of Reproducible and Open Science[^1]**
+
+[Sam Parsons](http://samdparsons.blogspot.com/), [Flavio Azevedo](http://flavioazevedo.com), [Carl Michael Galang](https://galangca.github.io/)
+
+</center>
+
+<div id="section" class="section level2 tabset tabset-fade" style="padding:50px">
+
+## FORRT as an assessment tool 
+
+<br>
+
+For universities and departments wishing to take part in FORRT, a public declaration of support and commitment to the teaching of reproducible and open research practices has to be made. Such declaration is open to take unique forms and shapes and it can be done together with open-science declarations (see, for example, the [University of Surrey's ](https://www.surrey.ac.uk/research/excellence/open-research) declaration on open research or [TOP's sample's implementations](https://t.co/aGhnChobfB)). In any case, and as to increase ease of access and decrease time spent with non-teaching activities, we also [provide a minimal template declaring support for and engagement in FORRT](https://docs.google.com/document/d/e/2PACX-1vR0eLAxmDuhVnNimobdvbsTqLDwPXKr8v5rPMt8HFb9FJ_UlizTd3CbXnvOR5XFooM577rF0jeUjebI/pub). In addition, endorsers should fill in the *breadth* and *depth* for each principle being taught (see [Principles](https://forrt.netlify.com/principles.html) webpage for guidence) at the FORRT as an [Assessment tool spreadsheet form](https://docs.google.com/spreadsheets/d/1pheGFLxte2zsnSLDAbISSSjOb1yEHNtU_Gfmw_mdUfo/edit#gid=0). Verification will be required in the form of a course content's webpage or course syllabi which can be sent to [FORRT's email](mailto:FORRTproject@gmail.com).
+
+
+To check out the universities and departments which abide by FORRT teaching practices, please see the spreasheet below, download [the database in pdf format](https://docs.google.com/spreadsheets/d/e/2PACX-1vTrmqPt1v15WBTsmv6ysgoAG_THb152o8z7g1-c_gkA8cNUguzPrC7D69TMDxLeYcNoZxccUqap04UD/pub?output=pdf), or [visit the database directly](https://docs.google.com/spreadsheets/d/e/2PACX-1vTrmqPt1v15WBTsmv6ysgoAG_THb152o8z7g1-c_gkA8cNUguzPrC7D69TMDxLeYcNoZxccUqap04UD/pub?output=pdf).
+
+<br>
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTrmqPt1v15WBTsmv6ysgoAG_THb152o8z7g1-c_gkA8cNUguzPrC7D69TMDxLeYcNoZxccUqap04UD/pubhtml" width="910" height="500"></iframe>
+
+<br>
+
+[^1]: **Authors note**. *This project was initiated at the 2018 meeting of the Society for the Improvement of Psychological Science in the “Teaching replicable and reproducible science” hackathon led by Kristen Lane and Heather Urry. The initial framework was developed in a subsequent working group consisting of: Sam Parsons, Flavio Azevedo, Carl Michael Galang, Kristin Lane, Lisa DeBruine, Benjamin Le, Donald Tellinghuisen, and Madeline Harms (we apologise if we have missed anybody - please let us know). The [current version of the paper](https://docs.google.com/document/d/1DYAeQ2-veg4AQqLHMCdOyLoAU2WH2I_oaJIKc9StXXE/edit?ts=5b62ed12#) introducing FORRT was drafted by Sam Parsons & Flavio Azevedo, with integral feedback and support from Carl Michael Galang. The FORRT website has been designed - and is maintained - by Flavio Azevedo. To further develop FORRT we are seeking additional contributors and will endeavor to acknowledge all that provided feedback on this project.*

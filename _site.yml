@@ -1,0 +1,29 @@
+name: "my-website"
+navbar:
+  title: ""
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "FORRT"
+      href: FORRT.html
+    - text: "Principles"
+      href: principles.html
+    - text: "Resources"
+      href: as.resource.tool.html
+    - text: "Assessment"
+      href: as.assessment.tool.html
+
+
+  right:
+    - text: ""
+      icon: fa-at
+      href: mailto:FORRTproject@gmail.com
+    - text: ""
+      icon: fa-github
+      href: https://github.com/flavioazevedo/FORRT
+    - text: ""
+      icon: fa-twitter
+      href: https://twitter.com/FORRTproject
+
+      
+      

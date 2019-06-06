@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>FORRT</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="FORRT.html">FORRT</a>
+</li>
+<li>
+  <a href="principles.html">Principles</a>
+</li>
+<li>
+  <a href="as.resource.tool.html">Resources</a>
+</li>
+<li>
+  <a href="as.assessment.tool.html">Assessment</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:FORRTproject@gmail.com">
+    <span class="fa fa-at"></span>
+     
+    
+  </a>
+</li>
+<li>
+  <a href="https://github.com/flavioazevedo/FORRT">
+    <span class="fa fa-github"></span>
+     
+    
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/FORRTproject">
+    <span class="fa fa-twitter"></span>
+     
+    
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">FORRT</h1>
+<h3 class="subtitle">Framework for Open and Reproducible Research Training</h3>
+
+</div>
+
+
+<hr />
+<p><br></p>
+<center>
+<div id="a-framework-for-evaluating-and-incentivising-the-teaching-of-reproducible-and-open-science1" class="section level2">
+<h2><strong>A Framework for Evaluating and Incentivising the Teaching of Reproducible and Open Science<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></strong></h2>
+<p><a href="http://samdparsons.blogspot.com/">Sam Parsons</a>, <a href="http://flavioazevedo.com">Flavio Azevedo</a>, <a href="https://galangca.github.io/">Carl Michael Galang</a></p>
+</center>
+<div id="section" class="section level2 tabset tabset-fade" style="padding:50px">
+
+</div>
+<div id="section" class="section level2 tabset tabset-fade">
+<h2></h2>
+<div id="principle-1" class="section level3">
+<h3>Principle 1</h3>
+<p><br><br></p>
+<div id="principle-1-reproducibility-knowledge" class="section level4">
+<h4><strong>Principle 1: Reproducibility knowledge</strong></h4>
+<p><br></p>
+<p><strong>Summary</strong>: Enacting this principle indicates that students attain a grounding in the theoretical underpinnings of reproducible and open research. We have identified the following key concepts;</p>
+<ul>
+<li>replication crisis and credibility revolution</li>
+<li>exploratory and confirmatory analyses</li>
+<li>questionable research practices (theory) and their prevalence</li>
+<li>proposed initiatives; better stats, teaching, data sharing, code sharing, pre-registration, replication</li>
+<li>ongoing debates, e.g. incentives for and against open science</li>
+<li>ethical considerations for improved practices</li>
+</ul>
+<p>Although not exhaustive, these concepts provide a broad coverage of reproducible analyses.</p>
+<p>Note: while eligibility does not necessarily mean all key concepts need to be covered, however, there must be sufficient evidence of these (and/or other) key concepts in <em>reproducibility knowledge</em> in order for a course to qualify at the ‘knowledge’ level of depth.</p>
+<center>
+<div class="figure">
+<img src="principle1.png" />
+
+</div>
+</center>
+</div>
+</div>
+<div id="principle-2" class="section level3">
+<h3>Principle 2</h3>
+<p><br><br></p>
+<div id="principle-2-conceptual-and-statistical-knowledge" class="section level4">
+<h4><strong>Principle 2: Conceptual and Statistical Knowledge</strong></h4>
+<p><br></p>
+<p><strong>Summary</strong>: Enacting this principle indicates that students attain a grounding in fundamental statistics. As such, these following key concepts do not simply list statistical tests. These key concepts represent an understanding of statistics that is necessary to evaluate others’ results, and to interpret one’s own results. We have identified the following key concepts:</p>
+<ul>
+<li>The logic of null hypothesis testing</li>
+<li>Limitations and benefits of NHST</li>
+<li>What a p-value means</li>
+<li>Effect sizes</li>
+<li>Statistical power</li>
+<li>Confidence intervals</li>
+<li>Type I and II errors and when and why they might happen</li>
+<li>Understand the relationship between all of the above</li>
+<li>Introductory knowledge of Bayesian statistics</li>
+<li>Questionable research &amp; measurement practices (statistical)</li>
+</ul>
+<p>Although not exhaustive, these concepts provide a broad coverage of reproducible analyses.</p>
+<p>Note: while eligibility does not necessarily mean all key concepts need to be covered, however, there must be sufficient evidence of these (and/or other) key concepts in <em>statistical knowledge</em> in order for a course to qualify at the ‘knowledge’ level of depth.</p>
+<center>
+<div class="figure">
+<img src="principle2.png" />
+
+</div>
+</center>
+</div>
+</div>
+<div id="principle-3" class="section level3">
+<h3>Principle 3</h3>
+<p><br><br></p>
+<div id="principle-3-reproducible-analyses" class="section level4">
+<h4><strong>Principle 3: Reproducible analyses</strong></h4>
+<p><br></p>
+<p><strong>Summary</strong>: Reproducible analyses allow the checking of analytic pipelines and facilitate error correction. Enacting this principle requires students to move towards transparent and scripted analysis practices. We have identified the following key concepts:</p>
+<ul>
+<li>strengths of reproducible pipelines</li>
+<li>scripted analyses compared with GUI</li>
+<li>programming data wrangling</li>
+<li>programming data analyses</li>
+<li>open source and free softwares</li>
+<li>tools to check yourself and others; statcheck, GRIM, and SPRITE</li>
+</ul>
+<p>Although not exhaustive, these concepts provide a broad coverage of reproducible analyses.</p>
+<p>Note: while eligibility does not necessarily mean all key concepts need to be covered, however, there must be sufficient evidence of these (and/or other) key concepts in <em>reproducible analyses</em> in order for a course to qualify at the ‘knowledge’ level of depth.</p>
+<center>
+<div class="figure">
+<img src="principle3.png" />
+
+</div>
+</center>
+</div>
+</div>
+<div id="principle-4" class="section level3">
+<h3>Principle 4</h3>
+<p><br><br></p>
+<div id="principle-4-open-data-and-materials" class="section level4">
+<h4><strong>Principle 4: Open data and materials</strong></h4>
+<p><br></p>
+<p><strong>Summary</strong>: Enacting this principle indicates that students have attained a grounding in open data and materials in both; using and sharing. We have identified the following key concepts:</p>
+<ul>
+<li>Reasons to share; for science, and for one’s own practices</li>
+<li>Repositories; e.g. OSF, FigShare, GitHub</li>
+<li>Accessing others data, code, and materials</li>
+<li>Sharing your own data, code, and materials</li>
+<li>Ethical considerations</li>
+<li>Examples of accessing non-open data</li>
+<li>Knowledge of traditional publication models</li>
+</ul>
+<p>Although not exhaustive, these concepts provide a broad coverage of reproducible analyses.</p>
+<p>Note: while eligibility does not necessarily mean all key concepts need to be covered, however, there must be sufficient evidence of these (and/or other) key concepts in <em>open data and materials</em> in order for a course to qualify at the ‘knowledge’ level of depth.</p>
+<center>
+<div class="figure">
+<img src="principle4.png" />
+
+</div>
+</center>
+</div>
+</div>
+<div id="principle-5" class="section level3">
+<h3>Principle 5</h3>
+<p><br><br></p>
+<div id="principle-5-preregistration" class="section level4">
+<h4><strong>Principle 5: Preregistration</strong></h4>
+<p><br></p>
+<p><strong>Summary</strong>: Preregistration entails laying out a complete methodology and analysis before a study has been undertaken (although there are differing levels of preregistration). This facilitates transparency and removes several potential QRPs.Enacting this principle indicates that students understand and are able to create a preregistration for a study. We have identified the following key concepts:</p>
+<ul>
+<li>purpose of preregistration - distinguishing exploratory and confirmatory analyses, transparency measures</li>
+<li>preregistration and registered reports - strengths and differences</li>
+<li>when can you preregister?</li>
+<li>writing a preregistration</li>
+<li>comparing a preregistration to a final study manuscript</li>
+<li>conducting a preregistered study</li>
+</ul>
+<p>Although not exhaustive, these concepts provide a broad coverage of reproducible analyses.</p>
+<p>Note: while eligibility does not necessarily mean all key concepts need to be covered, however, there must be sufficient evidence of these (and/or other) key concepts in <em>preregistration</em> in order for a course to qualify at the ‘knowledge’ level of depth.</p>
+<center>
+<div class="figure">
+<img src="principle5.png" />
+
+</div>
+</center>
+</div>
+</div>
+<div id="principle-6" class="section level3">
+<h3>Principle 6</h3>
+<p><br><br></p>
+<div id="principle-6-replication-research" class="section level4">
+<h4><strong>Principle 6: Replication research</strong></h4>
+<p><br></p>
+<p><strong>Summary</strong>: Replication research takes a variety of forms, each with a different purpose and contribution. Reproducible science requires replication research. Enacting this principle indicates that students attain a grounding in replication research practices. We have identified the following key concepts:</p>
+<ul>
+<li>purposes of replication attempts - what is a ‘failed’ replication?</li>
+<li>large scale replication attempts</li>
+<li>distinguishing conceptual and direct replications</li>
+<li>conducting replication studies; challenges, limitations, and comparisons with the original study</li>
+<li>Registered Replication Reports</li>
+<li>The politics of replicating famous studies</li>
+</ul>
+<p>Although not exhaustive, these concepts provide a broad coverage of reproducible analyses.</p>
+<p>Note: while eligibility does not necessarily mean all key concepts need to be covered, however, there must be sufficient evidence of these (and/or other) key concepts in <em>replication research</em> in order for a course to qualify at the ‘knowledge’ level of depth.</p>
+<center>
+<div class="figure">
+<img src="principle6.png" />
+
+</div>
+</center>
+<div>
+
+</div>
+</div>
+</div>
+<div id="section-1" class="section level2">
+<h2></h2>
+<p><br></p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><strong>Authors note</strong>. <em>This project was initiated at the 2018 meeting of the Society for the Improvement of Psychological Science in the “Teaching replicable and reproducible science” hackathon led by Kristen Lane and Heather Urry. The initial framework was developed in a subsequent working group consisting of: Sam Parsons, Flavio Azevedo, Carl Michael Galang, Kristin Lane, Lisa DeBruine, Benjamin Le, Donald Tellinghuisen, and Madeline Harms (we apologise if we have missed anybody - please let us know). The <a href="https://docs.google.com/document/d/1DYAeQ2-veg4AQqLHMCdOyLoAU2WH2I_oaJIKc9StXXE/edit?ts=5b62ed12#">current version of the paper</a> introducing FORRT was drafted by Sam Parsons &amp; Flavio Azevedo, with integral feedback and support from Carl Michael Galang. The FORRT website has been designed - and is maintained - by Flavio Azevedo. To further develop FORRT we are seeking additional contributors and will endeavor to acknowledge all that provided feedback on this project.</em><a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
