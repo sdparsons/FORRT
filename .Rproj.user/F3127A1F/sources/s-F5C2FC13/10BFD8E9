@@ -9,12 +9,15 @@
     "id" : "10BFD8E9",
     "lastKnownWriteTime" : 1534279626,
     "last_content_update" : 1534279626678,
-    "path" : "C:/Users/falaf/Academia/Projects/FORRT/as.assessment.tool.Rmd",
+    "path" : "C:/Users/falaf/Academia/Projects/FORRT/FORRT/as.assessment.tool.Rmd",
     "project_path" : "as.assessment.tool.Rmd",
     "properties" : {
         "cursorPosition" : "37,987",
         "scrollLine" : "0"
     },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
     "relative_order" : 7,
     "source_on_save" : false,
     "source_window" : "",

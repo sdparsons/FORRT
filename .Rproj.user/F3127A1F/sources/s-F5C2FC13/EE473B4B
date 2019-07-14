@@ -9,12 +9,15 @@
     "id" : "EE473B4B",
     "lastKnownWriteTime" : 1534279611,
     "last_content_update" : 1534279611727,
-    "path" : "C:/Users/falaf/Academia/Projects/FORRT/principles.Rmd",
+    "path" : "C:/Users/falaf/Academia/Projects/FORRT/FORRT/principles.Rmd",
     "project_path" : "principles.Rmd",
     "properties" : {
         "cursorPosition" : "246,987",
         "scrollLine" : "0"
     },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
     "relative_order" : 5,
     "source_on_save" : false,
     "source_window" : "",

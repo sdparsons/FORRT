@@ -9,12 +9,15 @@
     "id" : "8629CB66",
     "lastKnownWriteTime" : 1534279621,
     "last_content_update" : 1534279621041,
-    "path" : "C:/Users/falaf/Academia/Projects/FORRT/as.resource.tool.Rmd",
+    "path" : "C:/Users/falaf/Academia/Projects/FORRT/FORRT/as.resource.tool.Rmd",
     "project_path" : "as.resource.tool.Rmd",
     "properties" : {
         "cursorPosition" : "1,8",
         "scrollLine" : "0"
     },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
     "relative_order" : 6,
     "source_on_save" : false,
     "source_window" : "",

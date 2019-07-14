@@ -9,12 +9,15 @@
     "id" : "10802D7A",
     "lastKnownWriteTime" : 1536939754,
     "last_content_update" : 1536939754837,
-    "path" : "C:/Users/falaf/Academia/Projects/FORRT/README.md",
+    "path" : "C:/Users/falaf/Academia/Projects/FORRT/FORRT/README.md",
     "project_path" : "README.md",
     "properties" : {
         "cursorPosition" : "12,0",
         "scrollLine" : "0"
     },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
     "relative_order" : 8,
     "source_on_save" : false,
     "source_window" : "",

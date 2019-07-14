@@ -9,12 +9,15 @@
     "id" : "6FBD17F7",
     "lastKnownWriteTime" : 1534207187,
     "last_content_update" : 1534207187419,
-    "path" : "C:/Users/falaf/Academia/Projects/FORRT/style.css",
+    "path" : "C:/Users/falaf/Academia/Projects/FORRT/FORRT/style.css",
     "project_path" : "style.css",
     "properties" : {
         "cursorPosition" : "8,10",
         "scrollLine" : "0"
     },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
     "relative_order" : 2,
     "source_on_save" : false,
     "source_window" : "",
