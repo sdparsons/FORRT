@@ -19,8 +19,6 @@ output:
 
 <div id="section" class="section level2 tabset tabset-fade" style="padding:50px">
 
-## {.tabset .tabset-fade}
-
 ### Introduction
 
 <div class="b">
