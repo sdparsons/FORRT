@@ -8,8 +8,6 @@ output:
 
 ***
 
-<br>
-
 <center>
 
 ## FORRT as a pedagogical self-assessment tool
@@ -17,8 +15,6 @@ output:
 </center>
 
 <div id="section" class="section level2 tabset tabset-fade" style="padding:50px">
-
-<br>
 
 We set out to design a pedagogic assessment framework enabling a nuanced perspective on the degree of open and reproducible research teaching and mentoring. 
 

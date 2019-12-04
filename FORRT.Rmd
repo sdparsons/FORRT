@@ -8,14 +8,13 @@ output:
 
 ***
 
-<br>
-
 <center>
 
 ## **A Framework for Open and Reproducible Research Training[^1]**
 
+```{r eval = FALSE, include = FALSE}
 [Sam Parsons](http://samdparsons.blogspot.com/), [Flavio Azevedo](http://flavioazevedo.com), [Carl Michael Galang](https://galangca.github.io/)
-
+```
 </center>
 
 <div id="section" class="section level2 tabset tabset-fade" style="padding:50px">
@@ -63,6 +62,7 @@ Institutions and departments can support reproducible and open science through h
 
 FORRT is centred around a framework comprising six clusters of open and reproducible research practices. Each cluster has six sub-clusters.
 
+<br>
 
 #### **Cluster 1: Reproducibility crisis and Credibility Revolution**
 
@@ -75,9 +75,6 @@ FORRT is centred around a framework comprising six clusters of open and reproduc
 * Ongoing debates, (e.g. incentives for and against open science).
 * Ethical considerations for improved practices.
 
-Although not exhaustive, these concepts provide a broad coverage of this cluster. 
-
-
 <center>
 
 ```{R, eval = FALSE, include = FALSE}
@@ -87,6 +84,7 @@ Although not exhaustive, these concepts provide a broad coverage of this cluster
 
 </center>
 
+<br>
 
 #### **Cluster 2: Conceptual and Statistical Knowledge**
 
@@ -99,8 +97,6 @@ Although not exhaustive, these concepts provide a broad coverage of this cluster
 * Questionable research (QRPs) & measurement practices (QMPs).
 * Understand the relationship between all of the above.
 
-Although not exhaustive, these concepts provide a broad coverage of this cluster.
-
 <center>
 
 ```{r, eval = FALSE, include = FALSE}
@@ -109,12 +105,9 @@ Although not exhaustive, these concepts provide a broad coverage of this cluster
 
 </center>
 
-
-
+<br>
 
 #### **Cluster 3: Reproducible analyses**
-
-
 
 **Summary**: Reproducible analyses allow the checking of analytic pipelines and facilitate error correction. Enacting this principle requires students to move towards transparent and scripted analysis practices.
 
@@ -125,9 +118,6 @@ Although not exhaustive, these concepts provide a broad coverage of this cluster
 * Open source and free softwares
 * Tools to check yourself and others; statcheck, GRIM, and SPRITE
 
-
-Although not exhaustive, these concepts provide a broad coverage of this cluster.
-
 <center>
 
 ```{r, eval = FALSE, include = FALSE}
@@ -136,14 +126,9 @@ Although not exhaustive, these concepts provide a broad coverage of this cluster
 
 </center>
 
+<br>
 
 #### **Cluster 4: Open data and materials**
-
-
-
-
-
-
 
 **Summary**: Enacting this principle indicates that students have attained a grounding in open data and materials in both; using and sharing.
 
@@ -154,9 +139,6 @@ Although not exhaustive, these concepts provide a broad coverage of this cluster
 * Ethical considerations
 * Examples and consequences of accessing un/open data
 
-
-Although not exhaustive, these concepts provide a broad coverage of this cluster.
-
 <center>
 
 ```{r, eval = FALSE, include = FALSE}
@@ -165,16 +147,11 @@ Although not exhaustive, these concepts provide a broad coverage of this cluster
 
 </center>
 
-
-
+<br>
 
 #### **Cluster 5: Preregistration**
 
-
-
 **Summary**: Preregistration entails laying out a complete methodology and analysis before a study has been undertaken. This facilitates transparency and removes several potential QRPs.
-
-
 
 * Purpose of preregistration - distinguishing exploratory and confirmatory analyses, transparency measures
 * Preregistration and registered reports - strengths and differences
@@ -182,10 +159,6 @@ Although not exhaustive, these concepts provide a broad coverage of this cluster
 * Writing a preregistration
 * Comparing a preregistration to a final study manuscript
 * Conducting a preregistered study
-
-
-
-Although not exhaustive, these concepts provide a broad coverage of this cluster.
 
 <center>
 
@@ -195,11 +168,9 @@ Although not exhaustive, these concepts provide a broad coverage of this cluster
 
 </center>
 
+<br>
 
 #### **Cluster 6: Replication research**
-
-
-
 
 **Summary**:  Replication research takes a variety of forms, each with a different purpose and contribution. Reproducible science requires replication research. 
 
@@ -210,8 +181,9 @@ Although not exhaustive, these concepts provide a broad coverage of this cluster
 * Registered Replication Reports
 * The politics of replicating famous studies
 
+<br><br>
 
-Although not exhaustive, these concepts provide a broad coverage of this cluster.
+Although not exhaustive, these concepts provide a broad coverage of each FORRT cluster.
 
 <center>
 ```{r, eval = FALSE, include = FALSE}
@@ -240,6 +212,8 @@ Our implementation plan is as follows:
 
 
 
+```{r eval = FALSE, include = FALSE}
+# put into a chunk to leave out for the moment
 ### References
 
 <br>
@@ -279,7 +253,7 @@ Wagenmakers, E. J., Wetzels, R., Borsboom, D., van der Maas, H. L. J., & Kievit,
 Zwaan, R. A., Etz, A., Lucas, R. E., Donnellan, M. B. (2017). Making Replication Mainstream. Behavioral and Brain Sciences, 1-50. doi:10.1017/S0140525X17001972
 
 <div>
-
+```
 
 <br>
 

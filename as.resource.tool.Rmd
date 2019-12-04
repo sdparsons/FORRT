@@ -8,8 +8,6 @@ output:
 
 ***
 
-<br>
-
 <div id="section" class="section level2 tabset tabset-fade" style="padding:50px">
 
 <center>
