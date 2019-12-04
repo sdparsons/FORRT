@@ -12,8 +12,7 @@ output:
 
 <center>
 
-## **FORRT as a pedagogical self-assessment tool**
-
+## FORRT as a pedagogical self-assessment tool
 
 </center>
 
