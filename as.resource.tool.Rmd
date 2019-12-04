@@ -12,19 +12,25 @@ output:
 
 <center>
 
-## **A Framework for Evaluating and Incentivising the Teaching of Reproducible and Open Science[^1]**
-
-[Sam Parsons](http://samdparsons.blogspot.com/), [Flavio Azevedo](http://flavioazevedo.com), [Carl Michael Galang](https://galangca.github.io/)
+## **A Framework for Open and Reproducible Research Training**
 
 </center>
 
 <div id="section" class="section level2 tabset tabset-fade" style="padding:50px">
 
-## FORRT as a resource tool {.tabset .tabset-fade}
+## FORRT's educational NEXUS {.tabset .tabset-fade}
 
 <br>
 
-**Note from authors:** *the list of curated resources presented here are - to the best of our knowledge - good representations & emblematic of each principle. However, we are not committed to them, and in this first stage of reviews, we would very much like suggestions for other we may have ignored or were unable to find. While there is no set number of curated resources, we would like to keep it to a reasonable number (i.e., 5-to-7/8) per principle as to not overwhelm those wishing to start abiding by open and reproducible research practices.*
+**Note from authors:** *the list of curated resources presented here are - to the best of our knowledge - good representations & emblematic of each principle. However, we are not committed to them, and would very much like suggestions for others we may have ignored or were unable to find.*
+
+<br>
+
+### Pedagogical resources
+
+Placeholder:
+
+This is a placeholder for our key pegagogical resources. Here we aim to host teaching materials that can be adapted and used by other teachers. Please contact us with any resources you would like to submit.
 
 <br>
 
@@ -165,5 +171,3 @@ If you would like to contribute to this database, please add the intended teachi
 <div>
 
 <br>
-
-[^1]: **Authors note**. *This project was initiated at the 2018 meeting of the Society for the Improvement of Psychological Science in the “Teaching replicable and reproducible science” hackathon led by Kristen Lane and Heather Urry. The initial framework was developed in a subsequent working group consisting of: Sam Parsons, Flavio Azevedo, Carl Michael Galang, Kristin Lane, Lisa DeBruine, Benjamin Le, Donald Tellinghuisen, and Madeline Harms (we apologise if we have missed anybody - please let us know). The [current version of the paper](https://docs.google.com/document/d/1DYAeQ2-veg4AQqLHMCdOyLoAU2WH2I_oaJIKc9StXXE/edit?ts=5b62ed12#) introducing FORRT was drafted by Sam Parsons & Flavio Azevedo, with integral feedback and support from Carl Michael Galang. The FORRT website has been designed - and is maintained - by Flavio Azevedo. To further develop FORRT we are seeking additional contributors and will endeavor to acknowledge all that provided feedback on this project.*

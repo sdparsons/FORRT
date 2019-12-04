@@ -20,8 +20,6 @@ Last update: `r format(Sys.time(), '%d %B, %Y')`
 
 <br>
 
-SAM IS DOING A TEST
-
 Dear collaborators, stakeholders, interested parties,
 
 We present recommendations to improve the adoption of open science teaching practices by modifying the academic incentive structure (through ranking, badges) and by streamlining the education pipeline (through facilitating acquisition of resources). 

@@ -12,27 +12,51 @@ output:
 
 <center>
 
-## **A Framework for Evaluating and Incentivising the Teaching of Reproducible and Open Science[^1]**
+## **FORRT as a pedagogical self-assessment tool**
 
-[Sam Parsons](http://samdparsons.blogspot.com/), [Flavio Azevedo](http://flavioazevedo.com), [Carl Michael Galang](https://galangca.github.io/)
 
 </center>
 
 <div id="section" class="section level2 tabset tabset-fade" style="padding:50px">
 
-## FORRT as an assessment tool 
-
 <br>
 
-For universities and departments wishing to take part in FORRT, a public declaration of support and commitment to the teaching of reproducible and open research practices has to be made. Such declaration is open to take unique forms and shapes and it can be done together with open-science declarations (see, for example, the [University of Surrey's ](https://www.surrey.ac.uk/research/excellence/open-research) declaration on open research or [TOP's sample's implementations](https://t.co/aGhnChobfB)). In any case, and as to increase ease of access and decrease time spent with non-teaching activities, we also [provide a minimal template declaring support for and engagement in FORRT](https://docs.google.com/document/d/e/2PACX-1vR0eLAxmDuhVnNimobdvbsTqLDwPXKr8v5rPMt8HFb9FJ_UlizTd3CbXnvOR5XFooM577rF0jeUjebI/pub). In addition, endorsers should fill in the *breadth* and *depth* for each principle being taught (see [Principles](https://forrt.netlify.com/principles.html) webpage for guidence) at the FORRT as an [Assessment tool spreadsheet form](https://docs.google.com/spreadsheets/d/1pheGFLxte2zsnSLDAbISSSjOb1yEHNtU_Gfmw_mdUfo/edit#gid=0). Verification will be required in the form of a course content's webpage or course syllabi which can be sent to [FORRT's email](mailto:FORRTproject@gmail.com).
+We set out to design a pedagogic assessment framework enabling a nuanced perspective on the degree of open and reproducible research teaching and mentoring. 
+
+In the first instance, we aim that teachers use the FORRT assessment to benchmark current teaching and mentoring practices. We have developed a survey to collect this information.
 
 
-To check out the universities and departments which abide by FORRT teaching practices, please see the spreasheet below, download [the database in pdf format](https://docs.google.com/spreadsheets/d/e/2PACX-1vTrmqPt1v15WBTsmv6ysgoAG_THb152o8z7g1-c_gkA8cNUguzPrC7D69TMDxLeYcNoZxccUqap04UD/pub?output=pdf), or [visit the database directly](https://docs.google.com/spreadsheets/d/e/2PACX-1vTrmqPt1v15WBTsmv6ysgoAG_THb152o8z7g1-c_gkA8cNUguzPrC7D69TMDxLeYcNoZxccUqap04UD/pub?output=pdf).
+Our framework currently includes six principles core to the teaching of reproducible and open science practices:
+
+* Reproducibility crisis and Credibility Revolution
+* Conceptual and statistical knowledge
+* Reproducible analyses
+* Open data and materials
+* Preregistration
+* Replication research
+
+Each principle will be evaluated on two dimensions: **Breadth** and **Depth**.
+
+*Breadth* describes how widely teaching is distributed and takes three levels:
+
+* **Not yet enacted, minimal breadth, or no evidence**: Although the principle may be discussed, it does not form part of a course / module component.
+* **Opportunities for some**: The principle is taught, for example, as part of an optional course or elective or workshop.
+* **Course requirement for all**: The principle is taught to all students, for example as part of the core course, compulsory module, or practical session.
+
+*Depth* describes the degree to which students interact with the core principles and takes four levels:
+
+* **Not yet enacted, minimal depth, or no evidence**: the curricula does not formally include teaching on the principle in question. Although instructors might mention the principle, it is not covered in depth and/or does not feature as part of the syllabi. 
+* **Knowledge**: Students are taught about the principle and are required to demonstrate sufficient understanding.
+* **Practice**: In addition to acquiring a knowledge base in the principle, students also put this understanding into practice in practical exercises.
+* **Application**: In addition to acquiring a knowledge base in the principle and practical skills; students are required to apply this understanding and skill set in a research project.
+
+
+FORRT enables a contrast between course content as it currently stands and the ideal of teaching open and reproducible research practices as part of core training. Benchmarking the *breadth* and *depth* of course content on these principles of open and reproducible research enables course leaders to identify content that is lacking or can be improved. Note that while the highest standards for teaching these principles would be a course required the application of reproducible and open research practices, we acknowledge that this is not always possible. However, since FORTT is a tool intended to evaluate the current teaching practices for a wild variety of departments, its score should be able to convey and reflect low to high adherence to the teaching principles proposed by FORRT.
+
+
 
 <br>
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTrmqPt1v15WBTsmv6ysgoAG_THb152o8z7g1-c_gkA8cNUguzPrC7D69TMDxLeYcNoZxccUqap04UD/pubhtml" width="910" height="500"></iframe>
 
 <br>
-
-[^1]: **Authors note**. *This project was initiated at the 2018 meeting of the Society for the Improvement of Psychological Science in the “Teaching replicable and reproducible science” hackathon led by Kristen Lane and Heather Urry. The initial framework was developed in a subsequent working group consisting of: Sam Parsons, Flavio Azevedo, Carl Michael Galang, Kristin Lane, Lisa DeBruine, Benjamin Le, Donald Tellinghuisen, and Madeline Harms (we apologise if we have missed anybody - please let us know). The [current version of the paper](https://docs.google.com/document/d/1DYAeQ2-veg4AQqLHMCdOyLoAU2WH2I_oaJIKc9StXXE/edit?ts=5b62ed12#) introducing FORRT was drafted by Sam Parsons & Flavio Azevedo, with integral feedback and support from Carl Michael Galang. The FORRT website has been designed - and is maintained - by Flavio Azevedo. To further develop FORRT we are seeking additional contributors and will endeavor to acknowledge all that provided feedback on this project.*

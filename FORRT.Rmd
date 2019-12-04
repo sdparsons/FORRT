@@ -12,7 +12,7 @@ output:
 
 <center>
 
-## **A Framework for Evaluating and Incentivising the Teaching of Reproducible and Open Science[^1]**
+## **A Framework for Open and Reproducible Research Training[^1]**
 
 [Sam Parsons](http://samdparsons.blogspot.com/), [Flavio Azevedo](http://flavioazevedo.com), [Carl Michael Galang](https://galangca.github.io/)
 
@@ -56,43 +56,172 @@ Institutions and departments can support reproducible and open science through h
 
 </div>
 
-### FORRT as an Assessment tool
+
+### Principles
 
 <br>
 
-To be eligible, institutions or departments will be required to hold a public declaration on their support and commitment to the teaching of reproducible and open research practices. For example, the University of Surrey has such a statement on their website https://www.surrey.ac.uk/research/excellence/open-research
+FORRT is centred around a framework comprising six clusters of open and reproducible research practices. Each cluster has six sub-clusters.
 
-Our framework currently includes six principles core to the teaching of reproducible and open science practices:
 
-* Reproducibility knowledge
-* Conceptual and statistical knowledge
-* Reproducible analyses
-* Preregistration
-* Open data and materials
-* Replication research
+#### **Cluster 1: Reproducibility crisis and Credibility Revolution**
 
-Each principle will be evaluated on two dimensions: **Breadth** and **Depth**.
+**Summary**: Attainment of a grounding in the motivations and theoretical underpinnings of reproducible and open research. Integration with field specific content (i.e., or grounded in the history of replicability); 
 
-*Breadth* describes how widely teaching is distributed and takes three levels:
+* Replication crisis and credibility revolution
+* Exploratory and confirmatory analyses
+* Questionable research practices (their 'theory') and  prevalence
+* Proposed improvement science initiatives on statistics, measurement, teaching, data sharing, code sharing, pre-registration, replication.
+* Ongoing debates, (e.g. incentives for and against open science).
+* Ethical considerations for improved practices.
 
-* **Not yet enacted, minimal breadth, or no evidence**: Although the principle may be discussed, it does not form part of a course / module component.
-* **Opportunities for some**: The principle is taught, for example, as part of an optional course or elective or workshop.
-* **Course requirement for all**: The principle is taught to all students, for example as part of the core course, compulsory module, or practical session.
+Although not exhaustive, these concepts provide a broad coverage of this cluster. 
 
-*Depth* describes the degree to which students interact with the core principles and takes four levels:
 
-* **Not yet enacted, minimal depth, or no evidence**: the curricula does not formally include teaching on the principle in question. Although instructors might mention the principle, it is not covered in depth and/or does not feature as part of the syllabi. 
-* **Knowledge**: Students are taught about the principle and are required to demonstrate sufficient understanding.
-* **Practice**: In addition to acquiring a knowledge base in the principle, students also put this understanding into practice in practical exercises.
-* **Application**: In addition to acquiring a knowledge base in the principle and practical skills; students are required to apply this understanding and skill set in a research project.
+<center>
 
-Departments will be scored for each principle across the *breadth* and *depth* dimensions. A composite score will then be created for that department.
+```{R, eval = FALSE, include = FALSE}
+# I have put these into chunks so that they are not currently included. 
+![](Principle1.png) 
+```
 
-FORRT enables a contrast between course content as it currently stands and the ideal of teaching open and reproducible research practices as part of core training. Benchmarking the *breadth* and *depth* of course content on these principles of open and reproducible research enables course leaders to identify content that is lacking or can be improved. Note that while the highest standards for teaching these principles would be a course required the application of reproducible and open research practices, we acknowledge that this is not always possible. However, since FORTT is a tool intended to evaluate the current teaching practices for a wild variety of departments, its score should be able to convey and reflect low to high adherence to the teaching principles proposed by FORRT.
+</center>
 
-In addition to evaluating the quality of teaching, and some minor incentives using a badge/ranking system; this framework will act as a centralized platform containing resources for instructors wishing to implement reproducible and open science principles into their teaching.
 
-To join FORRT please see the tab “Implementation Plan” in this page. For details about which universities/departments have joined FORRT and the courses they teach, please check our page on [Assessment](https://forrt.netlify.com/as.assessment.tool.html).
+#### **Cluster 2: Conceptual and Statistical Knowledge**
+
+**Summary**: Enacting this principle indicates that students attain a grounding in fundamental statistics, measurement, and its implications. 
+
+* The logic of null hypothesis testing, p-values, Type I and II errors (and when and why they might happen).
+* Limitations and benefits of NHST, Bayesian and Likelihood approaches.
+* Effect sizes, Statistical power, Confidence Intervals.
+* Research Design, Sample Methods, and its implications for inferences.
+* Questionable research (QRPs) & measurement practices (QMPs).
+* Understand the relationship between all of the above.
+
+Although not exhaustive, these concepts provide a broad coverage of this cluster.
+
+<center>
+
+```{r, eval = FALSE, include = FALSE}
+![](Principle2.png) 
+```
+
+</center>
+
+
+
+
+#### **Cluster 3: Reproducible analyses**
+
+
+
+**Summary**: Reproducible analyses allow the checking of analytic pipelines and facilitate error correction. Enacting this principle requires students to move towards transparent and scripted analysis practices.
+
+* Strengths of reproducible pipelines
+* Scripted analyses compared with GUI
+* Data wrangling
+* Programming reproducible data analyses
+* Open source and free softwares
+* Tools to check yourself and others; statcheck, GRIM, and SPRITE
+
+
+Although not exhaustive, these concepts provide a broad coverage of this cluster.
+
+<center>
+
+```{r, eval = FALSE, include = FALSE}
+![](Principle3.png) 
+```
+
+</center>
+
+
+#### **Cluster 4: Open data and materials**
+
+
+
+
+
+
+
+**Summary**: Enacting this principle indicates that students have attained a grounding in open data and materials in both; using and sharing.
+
+* Knowledge of traditional publication models. Open access publishing, preprints
+* Reasons to share; for science, and for one’s own practices
+* Repositories; e.g. OSF, FigShare, GitHub
+* Accessing/sharing others data, code, and materials
+* Ethical considerations
+* Examples and consequences of accessing un/open data
+
+
+Although not exhaustive, these concepts provide a broad coverage of this cluster.
+
+<center>
+
+```{r, eval = FALSE, include = FALSE}
+![](Principle4.png)
+```
+
+</center>
+
+
+
+
+#### **Cluster 5: Preregistration**
+
+
+
+**Summary**: Preregistration entails laying out a complete methodology and analysis before a study has been undertaken. This facilitates transparency and removes several potential QRPs.
+
+
+
+* Purpose of preregistration - distinguishing exploratory and confirmatory analyses, transparency measures
+* Preregistration and registered reports - strengths and differences
+* When can you preregister? Can you preregister secondary data?
+* Writing a preregistration
+* Comparing a preregistration to a final study manuscript
+* Conducting a preregistered study
+
+
+
+Although not exhaustive, these concepts provide a broad coverage of this cluster.
+
+<center>
+
+```{r, eval = FALSE, include = FALSE}
+![](Principle5.png) 
+```
+
+</center>
+
+
+#### **Cluster 6: Replication research**
+
+
+
+
+**Summary**:  Replication research takes a variety of forms, each with a different purpose and contribution. Reproducible science requires replication research. 
+
+* Purposes of replication attempts - what is a 'failed' replication?
+* Large scale replication attempts
+* Distinguishing conceptual and direct replications
+* Conducting replication studies; challenges, limitations, and comparisons with the original study
+* Registered Replication Reports
+* The politics of replicating famous studies
+
+
+Although not exhaustive, these concepts provide a broad coverage of this cluster.
+
+<center>
+```{r, eval = FALSE, include = FALSE}
+![](Principle6.png) 
+```
+
+</center>
+
+<div>
+
 
 
 ### FORRT as a resource tool

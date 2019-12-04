@@ -6,12 +6,13 @@ navbar:
       href: index.html
     - text: "FORRT"
       href: FORRT.html
-    - text: "Principles"
-      href: principles.html
-    - text: "Resources"
+#    - text: "Principles"
+#      href: principles.html
+    - text: "educational NEXUS"
       href: as.resource.tool.html
-    - text: "Assessment"
+    - text: "Pedagogical Assessment"
       href: as.assessment.tool.html
+
 
 
   right:

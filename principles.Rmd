@@ -12,41 +12,42 @@ output:
 
 <center>
 
-## **A Framework for Evaluating and Incentivising the Teaching of Reproducible and Open Science[^1]**
-
-[Sam Parsons](http://samdparsons.blogspot.com/), [Flavio Azevedo](http://flavioazevedo.com), [Carl Michael Galang](https://galangca.github.io/)
+## **A Framework for Open and Reproducible Research Training**
 
 </center>
+
+FORRT is centred around a framework comprising six clusters of open and reproducible research practices. Each cluster has six sub-clusters.
 
 <div id="section" class="section level2 tabset tabset-fade" style="padding:50px">
 
 ## {.tabset .tabset-fade}
 
-### Principle 1
+### Cluster 1
 
 <br><br>
 
-#### **Principle 1: Reproducibility knowledge**
+#### **Cluster 1: Reproducibility crisis and Credibility Revolution**
 
 <br>
 
-**Summary**: Enacting this principle indicates that students attain a grounding in the theoretical underpinnings of reproducible and open research. We have identified the following key concepts; 
+**Summary**: Attainment of a grounding in the motivations and theoretical underpinnings of reproducible and open research. Integration with field specific content (i.e., or grounded in the history of replicability); 
 
-* replication crisis and credibility revolution
-* exploratory and confirmatory analyses
-* questionable research practices (theory) and their prevalence
-* proposed initiatives; better stats, teaching, data sharing, code sharing, pre-registration, replication
-* ongoing debates, e.g. incentives for and against open science
-* ethical considerations for improved practices
+* Replication crisis and credibility revolution
+* Exploratory and confirmatory analyses
+* Questionable research practices (their 'theory') and  prevalence
+* Proposed improvement science initiatives on statistics, measurement, teaching, data sharing, code sharing, pre-registration, replication.
+* Ongoing debates, (e.g. incentives for and against open science).
+* Ethical considerations for improved practices.
 
-Although not exhaustive, these concepts provide a broad coverage of reproducible analyses. 
-
-Note: while eligibility does not necessarily mean all key concepts need to be covered, however, there must be sufficient evidence of these (and/or other) key concepts in *reproducibility knowledge* in order for a course to qualify at the ‘knowledge’ level of depth.
+Although not exhaustive, these concepts provide a broad coverage of this cluster. 
 
 
 <center>
 
-![](principle1.png) 
+```{R, eval = FALSE, include = FALSE}
+# I have put these into chunks so that they are not currently included. 
+![](Principle1.png) 
+```
 
 </center>
 
@@ -56,35 +57,31 @@ Note: while eligibility does not necessarily mean all key concepts need to be co
 
 
 
-### Principle 2
+### Cluster 2
 
 
 <br><br>
 
-#### **Principle 2: Conceptual and Statistical Knowledge**
+#### **Cluster 2: Conceptual and Statistical Knowledge**
 
 <br>
 
-**Summary**: Enacting this principle indicates that students attain a grounding in fundamental statistics. As such, these following key concepts do not simply list statistical tests. These key concepts represent an understanding of statistics that is necessary to evaluate others’ results, and to interpret one’s own results. We have identified the following key concepts:
+**Summary**: Enacting this principle indicates that students attain a grounding in fundamental statistics, measurement, and its implications. 
 
-* The logic of null hypothesis testing
-* Limitations and benefits of NHST
-* What a p-value means
-* Effect sizes
-* Statistical power
-* Confidence intervals
-* Type I and II errors and when and why they might happen
-* Understand the relationship between all of the above
-* Introductory knowledge of Bayesian statistics
-* Questionable research & measurement practices (statistical)
+* The logic of null hypothesis testing, p-values, Type I and II errors (and when and why they might happen).
+* Limitations and benefits of NHST, Bayesian and Likelihood approaches.
+* Effect sizes, Statistical power, Confidence Intervals.
+* Research Design, Sample Methods, and its implications for inferences.
+* Questionable research (QRPs) & measurement practices (QMPs).
+* Understand the relationship between all of the above.
 
-Although not exhaustive, these concepts provide a broad coverage of reproducible analyses. 
-
-Note: while eligibility does not necessarily mean all key concepts need to be covered, however, there must be sufficient evidence of these (and/or other) key concepts in *statistical knowledge* in order for a course to qualify at the ‘knowledge’ level of depth.
+Although not exhaustive, these concepts provide a broad coverage of this cluster.
 
 <center>
 
-![](principle2.png) 
+```{r, eval = FALSE, include = FALSE}
+![](Principle2.png) 
+```
 
 </center>
 
@@ -93,32 +90,32 @@ Note: while eligibility does not necessarily mean all key concepts need to be co
 
 
 
-### Principle 3
+### Cluster 3
 
 
 <br><br>
 
-#### **Principle 3: Reproducible analyses**
+#### **Cluster 3: Reproducible analyses**
 
 <br>
 
-**Summary**: Reproducible analyses allow the checking of analytic pipelines and facilitate error correction. Enacting this principle requires students to move towards transparent and scripted analysis practices. We have identified the following key concepts:
+**Summary**: Reproducible analyses allow the checking of analytic pipelines and facilitate error correction. Enacting this principle requires students to move towards transparent and scripted analysis practices.
 
-* strengths of reproducible pipelines
-* scripted analyses compared with GUI
-* programming data wrangling
-* programming data analyses
-* open source and free softwares
-* tools to check yourself and others; statcheck, GRIM, and SPRITE
+* Strengths of reproducible pipelines
+* Scripted analyses compared with GUI
+* Data wrangling
+* Programming reproducible data analyses
+* Open source and free softwares
+* Tools to check yourself and others; statcheck, GRIM, and SPRITE
 
 
-Although not exhaustive, these concepts provide a broad coverage of reproducible analyses. 
-
-Note: while eligibility does not necessarily mean all key concepts need to be covered, however, there must be sufficient evidence of these (and/or other) key concepts in *reproducible analyses* in order for a course to qualify at the ‘knowledge’ level of depth.
+Although not exhaustive, these concepts provide a broad coverage of this cluster.
 
 <center>
 
-![](principle3.png) 
+```{r, eval = FALSE, include = FALSE}
+![](Principle3.png) 
+```
 
 </center>
 
@@ -129,34 +126,32 @@ Note: while eligibility does not necessarily mean all key concepts need to be co
 
 
 
-### Principle 4
+### Cluster 4
 
 
 <br><br>
 
-#### **Principle 4: Open data and materials**
+#### **Cluster 4: Open data and materials**
 
 <br>
 
-**Summary**: Enacting this principle indicates that students have attained a grounding in open data and materials in both; using and sharing. We have identified the following key concepts:
+**Summary**: Enacting this principle indicates that students have attained a grounding in open data and materials in both; using and sharing.
 
-* Reasons to share; for science, and for one's own practices
+* Knowledge of traditional publication models. Open access publishing, preprints
+* Reasons to share; for science, and for one’s own practices
 * Repositories; e.g. OSF, FigShare, GitHub
-* Accessing others data, code, and materials
-* Sharing your own data, code, and materials
+* Accessing/sharing others data, code, and materials
 * Ethical considerations
-* Examples of accessing non-open data
-* Knowledge of traditional publication models
+* Examples and consequences of accessing un/open data
 
 
-
-Although not exhaustive, these concepts provide a broad coverage of reproducible analyses. 
-
-Note: while eligibility does not necessarily mean all key concepts need to be covered, however, there must be sufficient evidence of these (and/or other) key concepts in *open data and materials* in order for a course to qualify at the ‘knowledge’ level of depth.
+Although not exhaustive, these concepts provide a broad coverage of this cluster.
 
 <center>
 
-![](principle4.png) 
+```{r, eval = FALSE, include = FALSE}
+![](Principle4.png)
+```
 
 </center>
 
@@ -169,35 +164,35 @@ Note: while eligibility does not necessarily mean all key concepts need to be co
 
 
 
-### Principle 5
+### Cluster 5
 
 
 <br><br>
 
-#### **Principle 5: Preregistration**
+#### **Cluster 5: Preregistration**
 
 <br>
 
-**Summary**: Preregistration entails laying out a complete methodology and analysis before a study has been undertaken (although there are differing levels of preregistration). This facilitates transparency and removes several potential QRPs.Enacting this principle indicates that students understand and are able to create a preregistration for a study. We have identified the following key concepts: 
+**Summary**: Preregistration entails laying out a complete methodology and analysis before a study has been undertaken. This facilitates transparency and removes several potential QRPs.
 
 
 
-* purpose of preregistration - distinguishing exploratory and confirmatory analyses, transparency measures
-* preregistration and registered reports - strengths and differences
-* when can you preregister?
-* writing a preregistration
-* comparing a preregistration to a final study manuscript
-* conducting a preregistered study
+* Purpose of preregistration - distinguishing exploratory and confirmatory analyses, transparency measures
+* Preregistration and registered reports - strengths and differences
+* When can you preregister? Can you preregister secondary data?
+* Writing a preregistration
+* Comparing a preregistration to a final study manuscript
+* Conducting a preregistered study
 
 
 
-Although not exhaustive, these concepts provide a broad coverage of reproducible analyses. 
-
-Note: while eligibility does not necessarily mean all key concepts need to be covered, however, there must be sufficient evidence of these (and/or other) key concepts in *preregistration* in order for a course to qualify at the ‘knowledge’ level of depth.
+Although not exhaustive, these concepts provide a broad coverage of this cluster.
 
 <center>
 
-![](principle5.png) 
+```{r, eval = FALSE, include = FALSE}
+![](Principle5.png) 
+```
 
 </center>
 
@@ -209,32 +204,31 @@ Note: while eligibility does not necessarily mean all key concepts need to be co
 
 
 
-### Principle 6
+### Cluster 6
 
 
 <br><br>
 
-#### **Principle 6: Replication research**
+#### **Cluster 6: Replication research**
 
 <br>
 
-**Summary**:  Replication research takes a variety of forms, each with a different purpose and contribution. Reproducible science requires replication research. Enacting this principle indicates that students attain a grounding in replication research practices. We have identified the following key concepts:
+**Summary**:  Replication research takes a variety of forms, each with a different purpose and contribution. Reproducible science requires replication research. 
 
-* purposes of replication attempts - what is a 'failed' replication?
-* large scale replication attempts
-* distinguishing conceptual and direct replications
-* conducting replication studies; challenges, limitations, and comparisons with the original study
+* Purposes of replication attempts - what is a 'failed' replication?
+* Large scale replication attempts
+* Distinguishing conceptual and direct replications
+* Conducting replication studies; challenges, limitations, and comparisons with the original study
 * Registered Replication Reports
 * The politics of replicating famous studies
 
 
-Although not exhaustive, these concepts provide a broad coverage of reproducible analyses. 
-
-Note: while eligibility does not necessarily mean all key concepts need to be covered, however, there must be sufficient evidence of these (and/or other) key concepts in *replication research* in order for a course to qualify at the ‘knowledge’ level of depth.
+Although not exhaustive, these concepts provide a broad coverage of this cluster.
 
 <center>
-
-![](principle6.png) 
+```{r, eval = FALSE, include = FALSE}
+![](Principle6.png) 
+```
 
 </center>
 
@@ -244,4 +238,3 @@ Note: while eligibility does not necessarily mean all key concepts need to be co
 
 <br>
 
-[^1]: **Authors note**. *This project was initiated at the 2018 meeting of the Society for the Improvement of Psychological Science in the “Teaching replicable and reproducible science” hackathon led by Kristen Lane and Heather Urry. The initial framework was developed in a subsequent working group consisting of: Sam Parsons, Flavio Azevedo, Carl Michael Galang, Kristin Lane, Lisa DeBruine, Benjamin Le, Donald Tellinghuisen, and Madeline Harms (we apologise if we have missed anybody - please let us know). The [current version of the paper](https://docs.google.com/document/d/1DYAeQ2-veg4AQqLHMCdOyLoAU2WH2I_oaJIKc9StXXE/edit?ts=5b62ed12#) introducing FORRT was drafted by Sam Parsons & Flavio Azevedo, with integral feedback and support from Carl Michael Galang. The FORRT website has been designed - and is maintained - by Flavio Azevedo. To further develop FORRT we are seeking additional contributors and will endeavor to acknowledge all that provided feedback on this project.*
