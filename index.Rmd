@@ -20,30 +20,28 @@ Last update: `r format(Sys.time(), '%d %B, %Y')`
 
 <br>
 
-Dear collaborators, stakeholders, interested parties,
+Thank you for your interest in FORRT. 
 
-We present recommendations to improve the adoption of open science teaching practices by modifying the academic incentive structure (through ranking, badges) and by streamlining the education pipeline (through facilitating acquisition of resources). 
+Our goals are rather straightforward. We hope FORRT will be a useful tool supporting teachers looking to integrate open and reproducible research practices in their courses. Our secondary goal is to start a conversation on, and advocate for, placing greater support and value in teaching and mentoring – including raising the profile of open teaching materials and recognising their value.
 
-Despite questions about the implementation of open-science teaching guidelines, with FORRT psychologists now have an unprecedented opportunity to shape the minds and future of the next generation of academics.
+To achieve our goals, and in line with principles enshrined in FORRT, its manuscript will become an open online contributorship project, wherein the work of those supporting OS pedagogies are valued and formally recognized. With this, we hope to expand the scope and diversity of FORRT’s mission and its team. And it is our wish that you join us in this mission.
 
-We hope FORRT will become a useful tool in helping researchers improve the quality of education of open and reproducible Psychological Science. Our secondary goal is also to start a conversation on - and inspire debates about - the ethics of teaching substantive topics/subjects without regard for the reproducible crisis in Science more generally, in social sciences in particular.
+#### An update you on our progress so far:
 
-Incidentally, Brian Nosek and colleagues have recently unveiled the last iteration of the three-part series on [Scientific Utopia](https://twitter.com/BrianNosek/status/1029105998911295488) in which they lay out the necessary changes towards academic nirvana: [opening scientific communication](https://arxiv.org/abs/1205.1055), [restructuring incentives and practices](http://journals.sagepub.com/doi/abs/10.1177/1745691612459058), and [crowdsourcing science](https://psyarxiv.com/vg649). We believe there should be a fourth pillar ensuring the new generation of scholars does not repeat the mistakes of its predecessors. And the way towards that objective is to familiarize students - and hence future academics - with the intricacies of science from the get-go. That is, introducing undergraduate and graduate students to foundational subject-matters *in tandem* with open & reproducible scientific principles can create an atmosphere of constructive curiosity and sustainable development of open and reproducible practices. And while FORRT is in its infancy, we developed it as an attempt to offer an unprecedented opportunity for teachers to shape the minds and future of the next generation of academics.
+We recently released a preprint introducing FORRT [INSERT LINK](), and created a live-version of the manuscript for community participation and feedback [tinyURL.com/FORRTworkingMS](tinyURL.com/FORRTworkingMS). 
 
-However, FORRT is still in its infancy. So as to maximize its potential scope and impact, we would like to request and encourage feedback at all stages of its development. In this sense, we would like your help in making FORRT a viable and implementable initiative. And for this, we would very much appreciate comments, edits, references, ideas. In specific, we have added throughout the website *"note from authors"*. And more generally, we have identified certain areas for which we would appreciate input:
+We have also opened a Slack channel to keep everyone up-to-date and to provide a platform for ongoing discussions. You can join the channel here [https://tinyurl.com/FORRTslack](https://tinyurl.com/FORRTslack)
 
-* Are there other reasons why universities/departments should integrate the teaching of open and reproducible science - in addition to those laid out in the Introduction? And reasons they should not?
-* Are there key concepts missing from the FORRT principles? Have we missed a concept important enough to become a principle of its own?
-* Should FORRT be applied to individual courses, departments, institutions, or all three? And should recommendations change as part of this?
-* Adoption for undergraduate, graduate, and doctoral programs - e.g. should we have a ‘sufficient’ level that differs for each training stage? Are there particular considerations we should give between courses?
-* The way we are scoring universities/departments separates *breadth* & *depth* for each principle, we believe this separation is key as it conveys different kinds of information. Do you share the motivation behind this separation? And would a simpler version of scoring (e.g., aggregating across them) be better?
+FORRT is operated as an open contributorship - all are welcome to contribute, and we aim to recognise all contributions. See the [manuscript]()[INSERT LINK]() for more information.
+
+We are asking contributions for FORRT educational NEXUS, an e-learning platform acting as a hub for community-driven initiatives and resources. In this sense, the manuscript is only a (small) part of FORRT. As described in the manuscript, this platform will present the fullest opportunity FORRT has to offer. We will be particularly interested in contributions to the website, so if you (or your peers) are able to contribute to the development of the website, you would be helping make FORRT a powerful reality. But we also welcome other essential contributions such sharing your course materials, volunteering for OS mentoring, and submitting pedagogical reports of open and reproducible courses. 
 
 
-We consider this first attempt to be a preliminary, active, living idea and plan to update it contingent upon your feedback. You can provide feedback by reading the website (in order, the pages) [commenting our google document](https://docs.google.com/document/d/1DYAeQ2-veg4AQqLHMCdOyLoAU2WH2I_oaJIKc9StXXE/edit?ts=5b62ed12#), by sending an email to FORRTproject@gmail.com; or by emailing us directly: sam.parsons@psy.ox.ac.uk, azevedo@nyu.edu, galangc@mcmaster.ca.
+Thank you,
 
-Thank you for helping this initiative,
+The FORRT team
 
-Sam, Flavio, Carl
+
 
 </div>
 </div>
