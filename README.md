@@ -13,7 +13,6 @@ Last updated: 14/09/2018. See https://forrt.netlify.com for the latest developme
 
 </center>
 
-
 **FORRT** is an internation collaboration project, born out of SIPS 2018 (Society for the Improvement of Psychological Science), which aims to provide provide a framework for open and reproducible research training to scholars around the world. To learn more about FORRT, go to directly to the introduction (further below) and to learn more about how *you* can help or join us see our request for assistence immediately below. All the information below is on our website https://forrt.netlify.com, which should contain the latest developments and have a nicer feel to it
 
 
