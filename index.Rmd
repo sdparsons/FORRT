@@ -28,11 +28,11 @@ To achieve our goals, and in line with principles enshrined in FORRT, its manusc
 
 #### An update you on our progress so far:
 
-We recently released a preprint introducing FORRT [INSERT LINK](), and created a live-version of the manuscript for community participation and feedback [tinyURL.com/FORRTworkingMS](tinyURL.com/FORRTworkingMS). 
+We recently released a preprint introducing FORRT [https://osf.io/bnh7p](https://osf.io/bnh7p), and created a live-version of the manuscript for community participation and feedback [tinyURL.com/FORRTworkingDOC](tinyURL.com/FORRTworkingDOC). 
 
 We have also opened a Slack channel to keep everyone up-to-date and to provide a platform for ongoing discussions. You can join the channel here [https://tinyurl.com/FORRTslack](https://tinyurl.com/FORRTslack)
 
-FORRT is operated as an open contributorship - all are welcome to contribute, and we aim to recognise all contributions. See the [manuscript]()[INSERT LINK]() for more information.
+FORRT is operated as an open contributorship - all are welcome to contribute, and we aim to recognise all contributions. See the [manuscript](https://osf.io/bnh7p) for more information.
 
 We are asking contributions for FORRT educational NEXUS, an e-learning platform acting as a hub for community-driven initiatives and resources. In this sense, the manuscript is only a (small) part of FORRT. As described in the manuscript, this platform will present the fullest opportunity FORRT has to offer. We will be particularly interested in contributions to the website, so if you (or your peers) are able to contribute to the development of the website, you would be helping make FORRT a powerful reality. But we also welcome other essential contributions such sharing your course materials, volunteering for OS mentoring, and submitting pedagogical reports of open and reproducible courses. 
 
