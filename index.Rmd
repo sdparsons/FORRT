@@ -28,7 +28,7 @@ To achieve our goals, and in line with principles enshrined in FORRT, its manusc
 
 #### An update you on our progress so far:
 
-We recently released a preprint introducing FORRT [https://osf.io/bnh7p](https://osf.io/bnh7p), and created a live-version of the manuscript for community participation and feedback [tinyURL.com/FORRTworkingDOC](tinyURL.com/FORRTworkingDOC). 
+We recently released a preprint introducing FORRT [https://osf.io/bnh7p](https://osf.io/bnh7p), and created a live-version of the manuscript for community participation and feedback [https://tinyURL.com/FORRTworkingDOC](https://tinyURL.com/FORRTworkingDOC). 
 
 We have also opened a Slack channel to keep everyone up-to-date and to provide a platform for ongoing discussions. You can join the channel here [https://tinyurl.com/FORRTslack](https://tinyurl.com/FORRTslack)
 
